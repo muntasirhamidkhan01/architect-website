@@ -39,6 +39,7 @@
   }
   .btn-primary:hover{
     background-color: #ff2f00;
+    transform: scale(1.05);
   }
   main{
     max-width: 1440px;
