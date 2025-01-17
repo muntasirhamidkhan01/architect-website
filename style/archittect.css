@@ -101,6 +101,33 @@
 #features{
   color:  #FF900E;
 }
+  /* some fact related styles */
+.facts-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.fact{
+  border: 1px solid #ff900e;
+  width: 240px;
+  height: 240px;
+  border-radius: 8px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.fact-number{
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.fact-name{
+  font-size: 1.25;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
   /* responsive media query */
 @media screen and (max-width: 576px) {
   .navbar, 
