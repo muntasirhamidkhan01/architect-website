@@ -99,7 +99,24 @@
   font-weight: 500;
 }
 #features{
-  color:  #FF900E;
+  color: #FF900E;
+}
+  /* feature related styles */
+#feature-section-title{
+  border-left: 5px solid #FF900E;
+  padding-left: 20px;
+}
+ /* box shadow isn't working  (VIP) */
+.the-feature-card{
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow:0px 40px 30p 0px rgba( 0, 0, 0, 0.06);
+}
+.feature-title{
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
   /* some fact related styles */
 .facts-container{
